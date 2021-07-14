@@ -1,0 +1,97 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Common Styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container{
+    background-color: #FFFFFF;
+    padding-left: 180px;
+    padding-right: 210px;
+}
+/* Header Styls Start */
+.header{
+    width: 1440px;
+    height: 677px;
+    display: flex;
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.now-watching {
+    margin-left: 156px;
+    margin-right: 102px;
+    margin-top: 164px;
+    margin-bottom: 169px;
+
+}
+.now-watching .headline{
+    font-size: 64px;
+    color: #FFFFFF;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.now-watching .link-button{
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.now-watching .link-button i{
+    padding-left: 8px;
+}
+.banner {
+    margin-top: 153px;
+    margin-right: 141px;
+    margin-bottom: 86px;
+
+}
+.banner img{
+    width: 556.01px; 
+    height: 438px; 
+}
+/* Header Styls End */
+
+/* Main Styls Start */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.226);
+    
+}
+.player .player-photo img{
+    width: 300px;
+    height: 256px;
+}
+.player h3{
+    font-size: 28px;
+    color: #18191F;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+.player p{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 10px;
+}
